@@ -89,7 +89,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -103,7 +105,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
+      <ConformanceMode>false</ConformanceMode>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -147,11 +149,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="basic_controller.hpp" />
+    <ClInclude Include="controller.hpp" />
+    <ClInclude Include="microsvc_controller.hpp" />
+    <ClInclude Include="network_utils.hpp" />
+    <ClInclude Include="runtime_utils.hpp" />
+    <ClInclude Include="sample_class.hpp" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="std_micro_service.hpp" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="usr_interrupt_handler.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="micro-service-tutorial.cpp" />
+    <ClCompile Include="basic_controller.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="microsvc_controller.cpp" />
+    <ClCompile Include="network_utils.cpp" />
+    <ClCompile Include="sample_class.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
