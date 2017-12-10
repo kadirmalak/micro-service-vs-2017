@@ -53,5 +53,6 @@ namespace cfx {
 		}
 
 		std::vector<utility::string_t> requestPath(const http_request & message);
+		std::map<utility::string_t, utility::string_t> BasicController::requestQueryParams(const http_request & message);
 	};
 }

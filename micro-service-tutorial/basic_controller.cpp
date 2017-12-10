@@ -70,4 +70,9 @@ namespace cfx {
 		auto relativePath = uri::decode(message.relative_uri().path());
 		return uri::split_path(relativePath);
 	}
+
+	std::map<utility::string_t, utility::string_t> BasicController::requestQueryParams(const http_request & message) {
+		auto query = message.relative_uri().query();
+		return uri::split_query(query);
+	}
 }
