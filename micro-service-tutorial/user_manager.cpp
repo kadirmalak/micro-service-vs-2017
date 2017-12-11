@@ -25,9 +25,8 @@
 //
 
 #include "stdafx.h"
-#include <mutex>
 #include "user_manager.hpp"
-#include <cpprest/details/basic_types.h>
+
 
 UserDatabase usersDB;
 std::mutex usersDBMutex;

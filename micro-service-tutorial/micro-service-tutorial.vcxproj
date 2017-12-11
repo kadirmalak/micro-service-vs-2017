@@ -156,7 +156,6 @@
     <ClInclude Include="runtime_utils.hpp" />
     <ClInclude Include="sample_class.hpp" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="std_micro_service.hpp" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="user_manager.hpp" />
     <ClInclude Include="usr_interrupt_handler.hpp" />

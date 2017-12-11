@@ -26,7 +26,7 @@
 
 #pragma once
 
-#include "std_micro_service.hpp"
+#include "stdafx.h"
 #include <cpprest/details/basic_types.h>
 
 using namespace boost::asio;

@@ -25,10 +25,9 @@
 //
 
 #include "stdafx.h"
-#include "std_micro_service.hpp"
 #include "microsvc_controller.hpp"
 #include "user_manager.hpp"
-#include <tuple>
+
 
 using namespace web;
 using namespace http;

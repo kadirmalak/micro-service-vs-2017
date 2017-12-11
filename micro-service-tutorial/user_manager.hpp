@@ -27,7 +27,6 @@
 #pragma once
 
 #include <map>
-#include "std_micro_service.hpp"
 #include <cpprest/details/basic_types.h>
 
 typedef struct {

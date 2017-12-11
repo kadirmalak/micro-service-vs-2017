@@ -21,9 +21,6 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="std_micro_service.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="sample_class.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>

@@ -26,7 +26,7 @@
 
 #include "stdafx.h"
 #include "network_utils.hpp"
-#include <cpprest/asyncrt_utils.h>
+
 
 namespace cfx {
 
